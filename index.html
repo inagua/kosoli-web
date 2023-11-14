@@ -463,14 +463,18 @@
                             <h2 class="section-title mt-0">Restons connectés !</h2>
                             <p class="section-paragraph">Tu peux choisir de rendre ce projet réel en participant à la campagne de financement participatif et tu peux aussi me laissez tes coordonnées, voire un message, pour la suite.</p>
                         </div>
-                        <div class="footer-form newsletter-form field field-grouped">
-                            <div class="control control-expanded">
-                                <input class="input" type="email" name="email" placeholder="Ton email...">
-                            </div>
-                            <div class="control">
-                                <a class="button button-primary button-block button-shadow" href="#">Keeep in touch!</a>
-                            </div>
-                        </div>
+						<form action="https://api.kora.li/api/v2/crm/registrations/6553a4e16ce72e38c9497759/actions/push/token/88tHG35P2Wspvoi8tuaKEj" method="get">
+<!--						<form action="http://localhost:3000/api/v2/crm/registrations/6553a4e16ce72e38c9497759/actions/push/token/88tHG35P2Wspvoi8tuaKEj" method="get">-->
+	                        <div class="footer-form newsletter-form field field-grouped">
+								<div class="control control-expanded">
+									<input class="input" type="email" name="email" id="email" placeholder="Ton email...">
+								</div>
+								<div class="control">
+<!--									<a class="button button-primary button-block button-shadow" href="#">Keep in touch!</a>-->
+									<input type="submit" value="Keep in touch!" class="button button-primary button-block button-shadow">
+								</div>
+    	                    </div>
+						</form>
                     </div>
                 </div>
             </section>
